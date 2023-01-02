@@ -1,12 +1,14 @@
-import Data from "./components/Data";
-import Todos from "./components/Todos";
 
+import Counter from './Component/Counter';
+import TodoList from './Component/TodoList';
+import Todos from './Component/Todos';
 
 function App() {
-  const data = ["red", "orange", "green", "blue","yellow"]
   return (
-    <div>
-      <Todos />
+    <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", height:"100vh"}}>
+      {/* <Todos/> */}
+      {/* <Counter /> */}
+      <TodoList />
     </div>
   );
 }
